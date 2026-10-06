@@ -1,0 +1,173 @@
+/* CSS Tokens */
+:root {
+  --bg: #F5F3EF;
+  --ink: #181816;
+  --accent: #A23B1E;
+  --border: rgba(24, 24, 22, 0.12);
+  --panel: rgba(24, 24, 22, 0.04);
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Figtree', sans-serif;
+  --radius: 2px;
+  --container-max: 1320px;
+}
+
+/* Category Tokens */
+html[data-category="spa"] {
+  --bg: #F3EEE6;
+  --ink: #1F2A24;
+  --accent: #5F7360;
+  --border: rgba(31, 42, 36, 0.12);
+  --panel: rgba(31, 42, 36, 0.04);
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', sans-serif;
+}
+
+html[data-category="salon"] {
+  --bg: #F6F1EC;
+  --ink: #241A18;
+  --accent: #9A4A3A;
+  --border: rgba(36, 26, 24, 0.12);
+  --panel: rgba(36, 26, 24, 0.04);
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Figtree', sans-serif;
+}
+
+html[data-category="restaurant"] {
+  --bg: #F2EBDD;
+  --ink: #1C1814;
+  --accent: #A23B1E;
+  --border: rgba(28, 24, 20, 0.12);
+  --panel: rgba(28, 24, 20, 0.04);
+  --font-display: 'Newsreader', serif;
+  --font-body: 'Hanken Grotesk', sans-serif;
+}
+
+html[data-category="fashion"] {
+  --bg: #EFEDE8;
+  --ink: #121212;
+  --accent: #8C7A5B;
+  --border: rgba(18, 18, 18, 0.12);
+  --panel: rgba(18, 18, 18, 0.04);
+  --font-display: 'Instrument Serif', serif;
+  --font-body: 'Instrument Sans', sans-serif;
+}
+
+html[data-category="sneakers"] {
+  --bg: #E9E7E2;
+  --ink: #0F0F0F;
+  --accent: #D9480F;
+  --border: rgba(15, 15, 15, 0.12);
+  --panel: rgba(15, 15, 15, 0.04);
+  --font-display: 'Archivo', sans-serif;
+  --font-body: 'Archivo', sans-serif;
+}
+
+html[data-category="accessories"] {
+  --bg: #F4EFE6;
+  --ink: #1B1A17;
+  --accent: #A3822F;
+  --border: rgba(27, 26, 23, 0.12);
+  --panel: rgba(27, 26, 23, 0.04);
+  --font-display: 'Cormorant', serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+html[data-category="interior"] {
+  --bg: #EEEAE3;
+  --ink: #26231F;
+  --accent: #7A5C45;
+  --border: rgba(38, 35, 31, 0.12);
+  --panel: rgba(38, 35, 31, 0.04);
+  --font-display: 'DM Serif Display', serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html[data-category="realestate"] {
+  --bg: #F1F0EB;
+  --ink: #12202F;
+  --accent: #B08D57;
+  --border: rgba(18, 32, 47, 0.12);
+  --panel: rgba(18, 32, 47, 0.04);
+  --font-display: 'Libre Caslon Text', serif;
+  --font-body: 'Public Sans', sans-serif;
+}
+
+html[data-category="creative"] {
+  --bg: #ECEBE7;
+  --ink: #111111;
+  --accent: #1F4E79;
+  --border: rgba(17, 17, 17, 0.12);
+  --panel: rgba(17, 17, 17, 0.04);
+  --font-display: 'Bodoni Moda', serif;
+  --font-body: 'Schibsted Grotesk', sans-serif;
+}
+
+html[data-category="fitness"] {
+  --bg: #E8E6E1;
+  --ink: #101010;
+  --accent: #8F1D21;
+  --border: rgba(16, 16, 16, 0.12);
+  --panel: rgba(16, 16, 16, 0.04);
+  --font-display: 'Archivo', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+html[data-category="events"] {
+  --bg: #F5EFE8;
+  --ink: #2A1E1B;
+  --accent: #7B2D3B;
+  --border: rgba(42, 30, 27, 0.12);
+  --panel: rgba(42, 30, 27, 0.04);
+  --font-display: 'Gloock', serif;
+  --font-body: 'Figtree', sans-serif;
+}
+
+html[data-category="bakery"] {
+  --bg: #F6EDE0;
+  --ink: #2B1D14;
+  --accent: #B8642B;
+  --border: rgba(43, 29, 20, 0.12);
+  --panel: rgba(43, 29, 20, 0.04);
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Hanken Grotesk', sans-serif;
+}
+
+html[data-category="beauty-products"] {
+  --bg: #F3EDE7;
+  --ink: #221C1A;
+  --accent: #5E3A2E;
+  --border: rgba(34, 28, 26, 0.12);
+  --panel: rgba(34, 28, 26, 0.04);
+  --font-display: 'Newsreader', serif;
+  --font-body: 'Jost', sans-serif;
+}
+
+html[data-category="store"] {
+  --bg: #EFEDE6;
+  --ink: #1A1A18;
+  --accent: #2F5D3A;
+  --border: rgba(26, 26, 24, 0.12);
+  --panel: rgba(26, 26, 24, 0.04);
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'Figtree', sans-serif;
+}
+
+html[data-category="home-services"] {
+  --bg: #EDEDE8;
+  --ink: #15212B;
+  --accent: #1F5F8B;
+  --border: rgba(21, 33, 43, 0.12);
+  --panel: rgba(21, 33, 43, 0.04);
+  --font-display: 'Roboto Serif', serif;
+  --font-body: 'Instrument Sans', sans-serif;
+}
+
+html[data-category="education"] {
+  --bg: #F2EFE6;
+  --ink: #1B2A3A;
+  --accent: #1E5A4A;
+  --border: rgba(27, 42, 58, 0.12);
+  --panel: rgba(27, 42, 58, 0.04);
+  --font-display: 'Source Serif 4', serif;
+  --font-body: 'Public Sans', sans-serif;
+}

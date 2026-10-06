@@ -1,0 +1,8 @@
+/* Skeleton Shimmer */
+.skeleton {
+  background: var(--panel);
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  animation: pulseOpacity 1.5s infinite ease-in-out;
+}

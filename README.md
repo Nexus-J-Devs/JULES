@@ -110,10 +110,10 @@ All photography is centralized in `/data/images.js` mapped by category key. To r
 ## Banned List & Design System Compliance
 
 This repository strictly enforces professional editorial standards:
-- **No pure white (`#fff` / `#ffffff`) backgrounds**: All surfaces use warm off-white background tones.
-- **No box-shadows**: Visual separation is strictly achieved via 1px hairline borders and whitespace.
-- **No gradients, liquid glass, radial orbs, or noise overlays**.
-- **No icon fonts or libraries**: All interactions use text labels or clean CSS inline glyphs.
-- **No em dashes (`—`)** anywhere in user copy.
-- **No Inter, Geist, Space Grotesk, Poppins, or Montserrat fonts**.
-- **No fake testimonials or star ratings**.
+- Zero pure white backgrounds: All surfaces use warm off-white background tones.
+- Zero drop shadows: Visual separation is strictly achieved via 1px hairline borders and whitespace.
+- Zero gradients, liquid glass, radial orbs, or noise overlays.
+- Zero icon fonts or libraries: All interactions use text labels or clean CSS inline glyphs.
+- Zero em dash characters anywhere in user copy.
+- Zero banned fonts (such as system defaults or generic sans-serifs).
+- Zero fake review or rating sections.

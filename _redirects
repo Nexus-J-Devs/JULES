@@ -1,1 +1,9 @@
-/*    /index.html   200
+/styles/*        /styles/:splat        200
+/data/*          /data/:splat          200
+/core/*          /core/:splat          200
+/components/*    /components/:splat    200
+/categories/*    /categories/:splat    200
+/legal/*         /legal/:splat         200
+/app.js          /app.js               200
+/serve.js        /serve.js             200
+/*               /index.html           200
